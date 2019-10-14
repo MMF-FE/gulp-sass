@@ -11,6 +11,9 @@ const autoprefixer = require('autoprefixer');
 const tap = require('gulp-tap');
 const globule = require('globule');
 
+sass.compiler = require('node-sass');
+
+
 const createVinyl = (filename, contents) => {
   const base = path.join(__dirname, 'scss');
   const filePath = path.join(base, filename);
