@@ -23,6 +23,10 @@
   "bugs": {
     "url": "https://github.com/dlmanning/gulp-sass/issues"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+},
   "dependencies": {
     "chalk": "^2.3.0",
     "lodash": "^4.17.11",
