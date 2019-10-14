@@ -1,6 +1,6 @@
 {
   "name": "@yzfe/gulp-sass",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Gulp plugin for sass",
   "main": "index.js",
   "engines": {
